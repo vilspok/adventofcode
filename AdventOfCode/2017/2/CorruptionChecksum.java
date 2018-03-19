@@ -29,7 +29,7 @@ public class CorruptionChecksum{
 				{
 					number = st.nextToken();
 					currentNum = Integer.parseInt(number);
-					//System.out.println("Nykyinen numba: " + currentNum);
+					//System.out.println("Current number: " + currentNum);
 					if(currentNum < smallest)
 					{
 						smallest = currentNum;
